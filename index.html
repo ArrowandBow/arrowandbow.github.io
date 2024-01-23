@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Car Hub</title>
+    <link rel="icon" type="image/x-icon" href="favicon.jpg">
     <style>
         body {
-            background-image: url("background.jpg");
+            background-color: #0B0C10;
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -17,24 +18,20 @@
         }
         header {
             background-color: #0B0C10;
-            padding: 1em;
+            padding: 8em;
             text-align: center;
-        }
-        header img {
-            max-width: 100%;
-            height: auto;
-            position: absolute;
-            top: 0;
-            left: 0;
+            background-image: url("background.jpg");
         }
         .search-bar {
-            width: 300px;
-            padding: 10px;
-            margin: 20px;
-            border: 3px solid #66FCF1;
-            border-radius: 10px;
-            color: black;
-            background-color: #0B0C10;
+            width: 475px;
+            padding: 20px;
+            margin: 30px;
+            border: 5px solid #66FCF1;
+            border-radius: 20px;
+            color: #0B0C10;
+            background-color:#0B0C10;
+            color: #66FCF1;
+            font-size: 15px;
         }
         main {
             padding: 1em;
@@ -43,9 +40,10 @@
             background-color: #0B0C10;
             padding: 1em;
             text-align: center;
-            position: fixed;
+            position: relative;
             bottom: 0;
             width: 100%;
+            font-size:20px;
         }
         .hello{
           position: fixed;
@@ -53,29 +51,33 @@
           left: 0px;
           width: 150px;
         }
+        main{
+            font-size: 20px;
+            position:relative;
+        }
+        
     </style>
 </head>
 <body>
     <header>
-        <img src="\logo.jpg"  class="hello">
-        <h1>Car Hub</h1>
+        <h1>
+        <img src="\logo.png"  class="hello" style="width:300px;height:auto;position:relative;margin-left:11%;">
+        </h1>
     </header>
-    
     <main>
         <input type="text" class="search-bar" placeholder="Search...">
-        <!-- Video content and other features go here -->
         <p>Welcome to Car Hub, your source for amazing videos!</p>
     </main>
-      <video width= '300' height  = '300'controls>
+      <video width= '750' height  = '300'controls poster="./thumbnaill0.jpg">
            <source src ="\edit0.mp4" type "video/mp4">
       </video>
-      <video width= '300' height  = '300'controls>
+      <video width= '750' height  = '300'controls poster="./thumbnail1.jpg">
            <source src ="\edit1.mp4" type "video/mp4">
       </video>
-      <video width= '300' height  = '300'controls>
+      <video width= '750' height  = '300'controls title="GTRR35" poster="./logo.png">
            <source src ="\edit2.mp4" type "video/mp4">
       </video>
-      <video width= '300' height  = '300'controls>
+      <video width= '750' height  = '300'controls poster="./logo.png">
            <source src ="\video4.mov" type "video/mov">
       </video>
     <footer>
