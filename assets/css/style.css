@@ -1,12 +1,10 @@
 body {
+    color:#ededed;
     background:url(assets/media/images/back.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    font-family:Arial, sans-serif;
-    color: #0B0C10  ;
-    margin: 0;
-    padding: 0;
+   
 }
 header {
     background-color: #0B0C10;
