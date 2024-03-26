@@ -1,6 +1,6 @@
 body {
     color:#ededed;
-    background:url(assets/media/images/back.webp);
+    background:url("../media/images/back.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
